@@ -3,6 +3,7 @@ Class that handles instantiation and running of game.  Creates new requested
 instance from calling object, or by default opens the poker game.
 */
 
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -46,7 +47,9 @@ public static boolean showZombieGame = false;
 public static boolean showCubeGame = false;
 public static boolean showSpiralGame = false;
 
-
+/*
+Instantiation method
+*/
     public runner() {
 	
         f.setBackground(Color.BLACK);
